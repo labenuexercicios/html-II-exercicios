@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,18 +10,34 @@
 </head>
 
 <body>
-    <div class="a">
+    <header class="a">
         <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
-
-<!-- Seu formukário aqui!-->
-        </div>
-
-    </div>
-    <div class="e">Footer</div>
-
+    </header>
+    <main>
+        <section class="b">
+            <article class="c">
+                <!-- Seu formukário aqui!-->
+                <form>
+                    <p>
+                        <label for="nome-do-input">Nome:</label>
+                        <input type="text" id="nome" name="nome-do-input" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="sugestao">Sugestão de clima:</label>
+                        <input type="text" name="sugestao" id="sugestao" required>
+                    </p>
+                    <button type="submit">Enviar</button>
+                </form>
+        
+            </article>
+        </section>
+    </main>
+    <footer class="e">Footer</footer>
+    
 </body>
 
 </html>
