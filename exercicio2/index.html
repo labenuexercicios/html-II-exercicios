@@ -5,31 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Exercício 2</title>
+    <title>Exercício 1</title>
 </head>
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <main class="b">
     
-        <div class="c">
-            <div class="d">
-                <h2>Chuva</h2>
-            </div>
-            <div class="d">
-                <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
-                <h2>Tempestade</h2>
-            </div>
-        </div>
+        <section class="c">
+            <article class="d">
+                <h3>Chuva:</h3>
+               <img src="./media/chuva.jpeg" width="140 ">
+                <video src="./media/chuva.mp4" controls width="140"></video>
+                <audio src="./media/chuva.mp3" controls></audio>
+            </article>
+            <article class="d">
+                <br>
+                <h3>Animais no mato</h3>
+                <img src="./media/animais.jpeg" width="140">
+                <video src="./media/animais.mp4" controls width="140"></video>
+                <audio src="./media/animais.mp3" controls></audio>
+            </article>
+            <article class="d">
+                <br>
+                <h3>Tempestade</h3>
+                <img src="./media/tempestade.jpeg" width="140">
+                <video src="./media/tempestade.mp4" width="140" controls></video>
+                <audio src="./media/tempestade.mp3" controls></audio>
+            </article>
+        </section>
     
-    </div>
-    <div class="e">
-        <p>Sugira um clima!</p>
-    </div>
+    </main>
+    <footer class="e">
+        <h5>Sugira um clima!</h5>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">Email:</label>
+            <input type="text" id="email" email="email">
+            <label for="sugestão">sugestão de clima:</label>
+            <input type="number" id="sugestão" sugestao="sugestão">
+            <button type="submit">enviar</button>
+        </form>
+    </footer>
     
 </body>
 </html>

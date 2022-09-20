@@ -6,27 +6,27 @@
   
   header, .a{
     height: 50px;
-    background-color: #5e5e5e;
+    background-color: #16caca;
     width: 100vw;
     text-align: center;
     color: white;
   }
   
   main, .b{
-    height: 90vh;
+    height: 200vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
   }
   
   section, .c{
-    background-color: #d4d4d4;
+    background-color: #0c0c0c;
     width: 100%;
     padding: 20px 20px 0 20px;
   }
   
   article, .d{
-    background-color: #dedede;
+    background-color: #ffffff;
     height: 25%;
     width: 100%;
     margin-top: 20px;
@@ -35,8 +35,8 @@
   }
   
   footer, .e{
-    background-color: #242424;
-    height: 50px;
+    background-color: #0eb4c0;
+    height: 40px;
     padding: 20px 0 0 20px;
     text-align: center;
     color: white;
