@@ -10,17 +10,31 @@
 </head>
 
 <body>
-    <div class="a">
+    <header class="a">
         <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
+    </header>
+    <main class="b">
+        <section class="c"></section>
 
-<!-- Seu formukário aqui!-->
-        </div>
-
-    </div>
-    <div class="e">Footer</div>
+        <!-- Seu formukário aqui!-->
+        <!-- para criar um formulário use sempre uma tag form -->
+        <form action="#">
+            <!-- o "for=" " fica vinculado com o id=" ", ou seja, o elemento do "for" precisa estar igual ao "id" como no exemplo abaixo:" -->
+            <!-- para ver as opções que um atributo possui basta inserir "" e ver as opções para tal atributo. Os atributos no HTML do meu VS Code, devido a formatação das cores, é o azul claro.-->
+            <label for="nome">Nome de usuário</label>
+            <input type="text" id="nome" name="Nome">
+            <br>
+            <label for="e-mail">E-mail de usuário</label>
+            <input type="email" id="e-mail" name="E-mail">
+            <br>
+            <label for="clima">Sugestão de clima</label>
+            <input type="text" id="clima" name="Sugira o clima que você deseja">
+            <br>
+            <p>E um botão para terminar.</p>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="e">Footer</footer>
 
 </body>
 
