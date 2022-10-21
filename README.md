@@ -1,4 +1,4 @@
-# A020 - HTML II
+# HTML II - Exercícios
 
 ### Setup do projeto no Git
 
