@@ -13,7 +13,7 @@
   }
   
   main, .b{
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
