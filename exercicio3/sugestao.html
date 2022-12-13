@@ -10,17 +10,40 @@
 </head>
 
 <body>
-    <div class="a">
+    <header class="a">
         <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
+    </header>
+    <main class="b">
+        <section class="c">
+        <form>
+            <h4>Seja bem vindo ao nosso climaX</h4>
+            <p><u>Preencha o formulário abaixo!</u></p>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Nome e sobrenome" required>
+            <br>
+            <label for="email:">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex: astrodev@labenu.com" required>
+            <br>
+            <label for="sujestão">Susjestão de clima:</label>
+            <select name="clima" id="clima">
+                <option value="">Options</option>
+                <option value="equatorial">Equatorial</option>
+                <option value="tropical">Tropical</option>
+                <option value="semiárido">Semiárido</option>
+                <option value="tropical-de-altitude">Tropical de Altitude</option>
+                <option value="tropical-atlantico">Tropical Atlântico</option>
+                <option value="subtropical">Subtropical</option>
+            </select>
+            <br>
+            <p><em>Clique em enviar quando estiver tudo certo!</em></p>
+            <button type="submit">ENVIAR</button>
+            <br>
+        </form>
 
-<!-- Seu formukário aqui!-->
-        </div>
+        </section>
 
-    </div>
-    <div class="e">Footer</div>
+    </main>
+    <footer class="e">Footer</footer>
 
 </body>
 
