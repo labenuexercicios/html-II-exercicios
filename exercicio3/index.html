@@ -1,3 +1,11 @@
+<!-- Altere o texto ```<p>``` do rodapé do arquivo index.html, adicionando a ele um link para a página sugestao.html.
+
+    Na página sugestão.html, crie um formulário na área indicada. O formulário deve possuir três inputs, cada um com seu **label**. Os campos a ser preenchidos devem ser:
+    - Nome
+    - e-mail
+    - Sugestão de clima
+    
+    O formulário deve possuir um botão escrito enviar, de tipo "submit". -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,28 +16,37 @@
     <title>Exercício 3</title>
 </head>
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <main class="b">
     
-        <div class="c">
-            <div class="d">
+        <section class="c">
+            <article class="d">
                 <h2>Chuva</h2>
-            </div>
-            <div class="d">
+                <img src="./media/chuva.jpeg" alt ="Imagem de chuva" width="12%" height="75%">
+                <audio src ="media/chuva.mp3" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="media/chuva.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+            <article class="d">
                 <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+                <img src="./media/animais.jpeg" alt="Pássaros trocando uma ideia" width="12%" height="75%">
+                <audio src="./media/animais.mp3" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="./media/animais.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+            <article class="d">
                 <h2>Tempestade</h2>
-            </div>
-        </div>
+                <img src="./media/tempestade.jpeg" alt ="Tempo fechado com trovões" width="12%" height="75%">
+                <audio src="./media/tempestade.jpeg" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="./media/tempestade.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+        </section>
     
-    </div>
-    <div class="e">
-        <p>Sugira um clima!</p>
-    </div>
+    </main>
+    <footer class="e">
+        <p><a href= "./sugestao.html">Sugira um clima!></a></p>
+    </footer>
     
 </body>
 </html>
