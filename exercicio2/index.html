@@ -1,3 +1,8 @@
+<!-- Adicione a cada um dos climas as tags de mídia correspondentes (imagem, áudio e vídeo). Os arquivos de mídia estão na pasta `media`.
+
+Caso já tenha feito o exercício 1, pode utilizar o HTML alterado lá para substituir o index.html deste exercício. Novamente, o arquivo `.css` foi utilizado apenas para facilitar a visualizacão, e não deve ser alterado. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,28 +13,37 @@
     <title>Exercício 2</title>
 </head>
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <main class="b">
     
-        <div class="c">
-            <div class="d">
+        <section class="c">
+            <article class="d">
                 <h2>Chuva</h2>
-            </div>
-            <div class="d">
+                <img src="./media/chuva.jpeg" alt ="Imagem de chuva" width="12%" height="75%"">
+                <audio src ="media/chuva.mp3" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="media/chuva.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+            <article class="d">
                 <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+                <img src="./media/animais.jpeg" alt="Pássaros trocando uma ideia" width="12%" height="75%">
+                <audio src="./media/animais.mp3" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="./media/animais.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+            <article class="d">
                 <h2>Tempestade</h2>
-            </div>
-        </div>
+                <img src="./media/tempestade.jpeg" alt ="Tempo fechado com trovões" width="12%" height="75%">
+                <audio src="./media/tempestade.jpeg" alt="Não foi possível carregar o play de audio" controls></audio>
+                <video src ="./media/tempestade.mp4" alt="Não foi possível carregar o play de video" width="200" height="100" autoplay muted></video>
+            </article>
+        </section>
     
-    </div>
-    <div class="e">
+    </main>
+    <footer class="e">
         <p>Sugira um clima!</p>
-    </div>
+    </footer>
     
 </body>
 </html>
