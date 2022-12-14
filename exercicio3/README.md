@@ -5,4 +5,4 @@ Na página sugestão.html, crie um formulário na área indicada. O formulário 
 - e-mail
 - Sugestão de clima
 
-O formulário deve possuir um botão escrito enviar, de tipo "submit".
+O formulário deve possuir um botão escrito enviar, de tipo "submit". 
