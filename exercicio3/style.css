@@ -3,7 +3,32 @@
     padding: 0;
     font-family: 'Helvetica', sans-serif;
   }
+
   
+  @font-face {
+      font-family: 'NYAN';
+      src: url('FB_NYAN_.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+          
+
+      /*
+          Tipos de format()
+          - opentype (otf)
+          - truetype (ttf)
+          - embedded-opentype
+          - truetype-aat (Apple Advanced Typography)
+          - svg
+          */
+  }
+
+  .NYAN{
+      font-family: 'NYAN';
+      font-size: 50px;
+      }
+  
+  
+
   header, .a{
     height: 50px;
     background-color: #5e5e5e;
